@@ -1,0 +1,68 @@
+.heading{
+   font-size: 42pt;  
+}
+
+h3{    
+    font-style: justify;
+    text-shadow: 2px 2px 2px deepskyblue;
+    text-align: center;
+   font-family: 'Indie Flower', cursive;
+   margin-top: 0;
+   color: white;
+   font-size: 24pt;
+}
+
+
+body{
+    background-image: url("http://image.shutterstock.com/z/stock-vector-futuristic-question-mark-with-abstract-background-137791478.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    padding-bottom:200px;
+}
+
+.column{
+    height: 400px;
+    margin:40px;
+}
+
+.guess{
+    color: white;
+    background-image: url("https://thumbs.dreamstime.com/t/blue-metal-abstract-background-illustration-general-51111887.jpg");
+    background-size: 100% 100%;
+    text-align: center;
+    font-size: 50pt;
+    height: 2em;
+    width: 30%;
+    margin-left:119.5px;
+}
+
+.button{
+    margin-top: 60px;
+    margin-left: 95px;
+}
+
+#results1{
+    font-size: 60pt;
+    margin-left: 155px;
+    margin-bottom: 0;
+}
+
+#results2{
+    font-size: 60pt;
+    margin-left: 155px;
+    margin-bottom: 0;
+}
+
+#results3{
+    font-size: 60pt;
+    margin-left: 155px;
+    margin-bottom: 0;
+}
+
+#tries{
+    font-family: Impact;
+    font-size: 60pt;
+    color: white;
+}
+
+
