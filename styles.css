@@ -1,0 +1,22 @@
+body{
+    background-color: lightslategrey;
+}
+
+li{
+    color:white;
+    text-align: center;
+}
+
+h1{
+    color: white;
+    text-align: center;
+}
+
+ul{
+    list-style: none;
+}
+
+h3{
+    color: white;
+    text-align: center;
+}
