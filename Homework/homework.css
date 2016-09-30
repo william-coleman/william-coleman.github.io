@@ -1,0 +1,66 @@
+.BG{
+    background-image: url("http://www.polyvore.com/cgi/img-thing?.out=jpg&size=l&tid=160640214");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+.family_talk{
+    font-family:cursive;
+    color:lightpink;
+    font-style:italic;
+}
+
+.header{
+    text-align:center;
+    font-family:'Gloria Hallelujah',cursive;
+    color:powderblue;
+}
+
+nav{
+    top:0;
+    width:100%;
+    text-align: right;
+    position:fixed; 
+    border:dashed mediumaquamarine;
+    background-color:slategray;
+}
+
+ul{
+    list-style: none;
+}
+
+li{
+  margin-right:40px;
+  display: inline;
+  padding: 5px;
+  color: white;
+}
+
+.pictures{
+    border:ridge dimgray;
+}
+
+img{
+    margin-left:39px;
+    margin-right:30px;
+    height:200px;
+    width:133px;
+}
+
+h1,h2,h3,h4,h5,p{
+    text-align:center;
+    color:mediumaquamarine;
+}
+
+  table#t01 tr:nth-child(even) {
+            background-color: blue;
+  }
+        
+        table#t01 tr:nth-child(odd) {
+            background-color: red;
+        }
+        
+        table#t01 th {
+            background-color: mediumaquamarine;
+            color: white;
+        }

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Weather Today</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <!-- Official Bootstrap -->
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/Cerulean.css">
+    <!-- Our project CSS -->
+    <link rel="stylesheet" href="weatherapp.css">
+</head>
+
+<body id="application">
+    <input id="zip" type="text" placeholder="Address/City/ or Zip">
+    <button id="zipBut">Find Weather</button>
+    <hr />
+    <br />
+    <br />
+    <br />
+    <div id="container">
+        <div class="columns">
+            <div class="col-sm-4 cards snow">
+                <h2 id="secondcol"></h2>
+                <h2 id="thirdcol"></h2>
+                <h2 id="fourthcol"></h2>
+            </div>
+            <div class="col-sm-4 cards foggy">
+                <h1>51 F</h1>
+                <h2>Bowling Green, KY</h2>
+                <h2>High: 60 F</h2>
+                <h2>Low: 43 F</h2>
+                <h2>Precip: 33%</h2>
+            </div>
+            <div class="col-sm-4 cards wind">
+                <h1>59 F</h1>
+                <h2>Frankfort, Ky</h2>
+                <h2>High: 63 F</h2>
+                <h2>Low: 51 F</h2>
+                <h2>Precip: 56%</h2>
+            </div>
+        </div>
+    </div>
+    <br />
+    <div class="container">
+        <div class="columns">
+            <div class="col-sm-4 cards storm">
+                <h1>44 F</h1>
+                <h2>Paintsville, KY</h2>
+                <ul id="weather"></ul>
+            </div>
+            <div class="col-sm-4 cards rain">
+                <h1>68 F</h1>
+                <h2>Lexington, KY</h2>
+                <h2>High: 71 F</h2>
+                <h2>Low: 56 F</h2>
+                <h2>Pricip: 88%</h2>
+            </div>
+            <div class="col-sm-4 cards sunny">
+                <h1>83 F</h1>
+                <h2>Paducah, KY</h2>
+                <h2>High: 91 F</h2>
+                <h2>Low: 81 F</h2>
+                <h2>Precip: 0%</h2>
+            </div>
+        </div>
+    </div>
+
+    <!-- Official JQuery -->
+    <script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jqueryui/1.11.4/jquery-ui.min.js"></script>
+    <!-- Official Bootstrap -->
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <!-- Our project JS -->
+    <script src="weather.js"></script>
+
+</body>
+
+</html>

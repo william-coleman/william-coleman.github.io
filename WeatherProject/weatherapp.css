@@ -1,0 +1,26 @@
+#application{
+    background-image: url("https://balancebox.files.wordpress.com/2012/04/dsc_0494-edit.jpg");
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+}
+
+
+.cards{
+    margin: 50%;
+    background-image: url("http://img08.deviantart.net/b5aa/i/2015/140/7/c/chalkboard_by_lorelinde-d8u2phm.jpg");
+    background-repeat: no-repeat;
+    height:400px;
+    width: 250px;
+    margin:10px;
+}
+
+h1{
+    color: white;
+}
+
+h2{
+    font-family: cursive;
+    color: white;
+    text-align: center;
+    font-style: justify;
+}

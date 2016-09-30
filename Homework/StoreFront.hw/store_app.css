@@ -1,0 +1,75 @@
+body{
+    background-color:lemonchiffon;
+}
+
+.logo{
+    margin-top: 80px;
+    font-size: 45pt;
+    text-align: center;
+    float: right;
+    margin-right: 20%;
+    color:deeppink;
+    font-family:cursive;
+    font-stretch: expanded;
+    padding: 20px;
+}
+
+.header{
+    border:solid 5px skyblue;
+    background-color:lightgreen;
+}
+
+.nav{
+    border:solid lightgreen 10px;
+    padding:5px;
+    background-color:skyblue;
+}
+
+li{
+    display:inline;
+    list-style:none;
+    color:deeppink;
+    margin-right:10%;
+}
+
+.han{
+    margin-bottom:2%;
+    margin-left:15%;
+    float:right;
+    width:200px;
+    height:200px;
+}
+
+aside{
+    float:right;
+}
+
+.examples{
+    border: solid lightgreen 10px;
+    background-color:lightpink;
+    color:deeppink;
+}
+
+.aboutus{
+    font-family:fantasy;
+    text-align:center;
+    color:dodgerblue;
+}
+
+.bottom{
+    margin: 5%;
+    text-align: center;
+}
+
+.nav2{
+    word-spacing: 165px;
+    width:100%;
+    text-align: center;
+}
+
+.footer{
+    text-align: center;
+    background-color: white;
+    margin-top:0px;
+    font-size: 8pt;
+}
