@@ -12,9 +12,11 @@ $(document).ready(function () {
             var place = data.results[0].formatted_address;
             var lat = data.results[0].geometry.location.lat;
             var long = data.results[0].geometry.location.lng;
-            console.log(place + " " + lat + " " + long )
-            var urlM = mapbase + lat + "," + long + mapKey;
-            $("#mapImage").html(urlM);
+            console.log(place + " " + lat + " " + long );
+            $("#latit").html(lat);
+            $("#longit").html(long);
+            // var urlM = mapbase + lat + "," + long + mapKey;
+            // $("#mapImage").html(urlM);
         });
         });
     });

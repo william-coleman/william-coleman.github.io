@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <title>Simple Map</title>
     <meta name="viewport" content="initial-scale=1.0">
@@ -30,7 +31,64 @@
     async defer></script>
   </body>
 
-<!--<head>
+
+
+
+<!--<head> ATTEMPT ONE
+    <title>Maply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/Cerulean.css">
+    <link rel="stylesheet" href="maply.css">
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+        html,
+        body {
+            height: 100%;
+            margin: 0;
+            padding: 0;
+        }
+        
+        #map {
+            height: 50%;
+        }
+    </style>
+</head>
+
+<body>    
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <input id="location" type="Text" placeholder="City, State, or Zip">
+            <button id="mapBut" type="button" class="btn btn-info navbar-btn">Find Location</button>
+        </div>
+    </nav>
+
+    <p id="latit"></p>
+    <p id="longit"></p>
+
+    <div id="map"></div>
+
+    <script>
+      var map;
+      function initMap() {
+          var num1 = ("#latit").val();
+        var num2 = ("#longit").val();
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: num1.val(), lng: num2.val()},
+          zoom: 8
+        });
+      };
+      ("#mapBut").click(initMap);
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYk1ZhkQ8NdkiNQH8rVWCBdAjwY2cvcyk&callback=initMap" async
+        defer></script>
+    <script src="jquery-3.1.0 (1).js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="maply.js"></script>
+</body>-->
+
+<!--<head> ATTEMPT TWO
     <title>Will.Maply</title>
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
