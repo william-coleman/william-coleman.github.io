@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Map</title>
+    <meta name="viewport" content="initial-scale=1.0">
+    <meta charset="utf-8">
+    <style>
+      html, body {
+        height: 100%;
+        margin: 0;
+        padding: 0;
+      }
+      #map {
+        height: 100%;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="map"></div>
+    <script>
+      var map;
+      function initMap() {
+        map = new google.maps.Map(document.getElementById('map'), {
+          center: {lat: -34.397, lng: 150.644},
+          zoom: 8
+        });
+      }
+    </script>
+    <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDYk1ZhkQ8NdkiNQH8rVWCBdAjwY2cvcyk&callback=initMap"
+    async defer></script>
+  </body>
+
+<!--<head>
+    <title>Will.Maply</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="bootstrap/css/bootstrap.css">
+    <link rel="stylesheet" href="bootstrap/Cerulean.css">
+    <link rel="stylesheet" href="maply.css">
+</head>
+
+<body>
+
+    <nav class="navbar navbar-inverse navbar-static-top">
+        <div class="container">
+            <input id="location" type="Text" placeholder="City, State, or Zip">
+            <button id="mapBut" type="button" class="btn btn-info navbar-btn">Find Location</button>
+        </div>
+    </nav>
+
+    <div class="container">
+        <div class="row">
+            <div id="map" class="col-md-3 column">
+                <img src="https://maps.googleapis.com/maps/api/staticmap?center=Brooklyn+Bridge,New+York,NY&zoom=13&size=600x300&maptype=roadmap
+&markers=color:blue%7Clabel:S%7C40.702147,-74.015794&markers=color:green%7Clabel:G%7C40.711614,-74.012318
+&markers=color:red%7Clabel:C%7C40.718217,-73.998284
+&key=AIzaSyCeAd848VTpWFfRAHL1bxZNekb1inj9gMY">
+
+            </div>
+            <div class="col-md-3 column">
+
+            </div>
+            <div class="col-md-3 column">
+
+            </div>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="row">
+            <div class="col-md-3 column">
+
+            </div>
+            <div class="col-md-3 column">
+
+            </div>
+            <div class="col-md-3 column">
+
+            </div>
+        </div>
+    </div>
+
+
+
+
+
+
+    <script src="jquery-3.1.0 (1).js"></script>
+    <script src="bootstrap/js/bootstrap.js"></script>
+    <script src="maply.js"></script>
+</body>-->
+
+</html>
